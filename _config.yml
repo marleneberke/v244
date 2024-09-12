@@ -1,0 +1,87 @@
+---
+booktitle: Proceedings of the Fortieth Conference on Uncertainty in Artificial Intelligence
+shortname: UAI
+year: '2024'
+volume: '244'
+start: &1 2024-07-15
+end: 2024-07-19
+published: 2024-09-12
+conference_number: '40'
+sections:
+- name: Preface
+  title: Preface
+- name: Papers
+  title: Papers
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: UAI-2024
+month: 0
+cycles: false
+bibtex_editor: Kiyavash, Negar and Mooij, Joris M.
+editor:
+- given: Negar
+  family: Kiyavash
+- given: Joris M.
+  family: Mooij
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the Fortieth Conference on Uncertainty in Artificial Intelligence
+    Held in Universitat Pompeu Fabra, Barcelona, Spain on 15-19 July 2024
+
+  Published as Volume 244 by the Proceedings of Machine Learning Research on 12 September 2024.
+
+  Volume Edited by:
+    Negar Kiyavash
+    Joris M. Mooij
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: 15--19 Jul
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v244"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v244
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v244
+email: ''
+conference:
+  name: Uncertainty in Artificial Intelligence
+  url: https://www.auai.org/uai2024/
+  location: Universitat Pompeu Fabra, Barcelona, Spain
+  dates:
+  - *1
+  - 2024-07-16
+  - 2024-07-17
+  - 2024-07-18
+  - 2024-07-19
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+orig_bibfile: "/Users/neil/mlresearch/v244/UAI2024.bib"
+# Site settings
+# Original source:  /Users/neil/mlresearch/v244/UAI2024.bib
